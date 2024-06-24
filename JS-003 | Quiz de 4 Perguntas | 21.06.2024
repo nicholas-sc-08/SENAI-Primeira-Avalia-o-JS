@@ -7,14 +7,12 @@
 // C) The Vampire Diaries (2 pontos)
 // D) Blade: The Series (1 ponto)
 
-
 // 2) Dentre os livros abaixo, quais incluem melhor a temática de fantasia?
 
 // A) Alice no País das Maravilhas (1 ponto)
 // B) O Hobbit (1 ponto)
 // C) A Fantástica Fábrica de Chocolates (1 ponto)
 // D) Coraline (2 pontos)
-
 
 // 3) Quais das franquias listadas, representam melhor a empresa de jogos Nintendo?
 
@@ -23,14 +21,12 @@
 // C) Metroid (3 pontos)
 // D) Super Mario Bros (2 pontos)
 
-
 // 4) Quais dos autores citados, representam melhor o gênero de livros de terror?
 
 // A) Stephen King (2 pontos)
 // B) Edgar Allan Poe (2 pontos)
 // C) H.P. Lovecraft (2 pontos)
 // D) Mary Shelley (1 ponto)
-
 
 // Critérios de avaliação:
 
@@ -39,7 +35,6 @@
 // (1,0) Incluir uma validação para opções diferentes das alternativas, avisando a soma de 0 pontos.
 // (0,5) Mostrar na tela ao final, quais foram as opções / respostas escolhidas em cada pergunta.
 // (1,0) Mostrar os pontos ao final. Se conseguir pontuação máxima (10 pontos), incluir além da pontuação, uma mensagem "Parabéns!"
-
 
 let resposta_da_pergunta_um;
 let resposta_da_pergunta_dois;
@@ -166,6 +161,7 @@ switch(true){
         break;
 };
 
+
 switch(true){
 
     case resposta_da_pergunta_um.toUpperCase() != alternativa_um && resposta_da_pergunta_um.toUpperCase() != alternativa_dois && resposta_da_pergunta_um.toUpperCase() != alternativa_tres && resposta_da_pergunta_um.toUpperCase() != alternativa_quatro:
@@ -185,6 +181,7 @@ switch(true){
     break;
 
 };
+
 
 switch(true){
 
